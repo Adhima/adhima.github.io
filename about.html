@@ -51,11 +51,11 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html" class="active">About</a></li>
           <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
+          <!--li><a href="services.html">Services</a></li-->
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        <!--i class="mobile-nav-toggle d-xl-none bi bi-list"></i-->
       </nav>
 
       <div class="header-social-links">
@@ -75,8 +75,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <h2>About Me</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -89,24 +88,41 @@
               <h2 class="headline">Hi, I'm Adhima - What I Do</h2>
               <p class="lead">
               Design and analyze automation systems based on PLCs and industrial sensors, as well as perform maintenance and troubleshooting on electrical systems and industrial equipment. Skilled in designing wiring diagrams and electrical schematics, and developing embedded system prototypes.              </p>
-              <p>
-                Integer posuere lacus in mi fringilla, eget luctus risus pulvinar. Curabitur a arcu a nisl tempus sagittis. Aenean varius, tortor sed porttitor dictum, augue eros viverra lectus, at efficitur magna lacus in risus.
-              </p>
+              <!--p>
+                Programming and configuring programmable logic controllers for industrial automation, designing and maintaining electrical systems and circuits, and developing embedded system prototypes.
+              </p-->
 
               <div class="cta-group">
-                <a href="#portfolio" class="btn-ghost">
+                <a href="portfolio.html" class="btn-ghost">
                   View My Work <i class="bi bi-arrow-up-right"></i>
                 </a>
-                <a href="#" class="link-underline">
+                <button type="button" class="btn link-underline" data-bs-toggle="modal" data-bs-target="#cvModal">
                   Download Resume <i class="bi bi-download"></i>
-                </a>
+              </div>
+                <!-- CV Preview Modal -->
+              <div class="modal fade" id="cvModal" tabindex="-1" aria-labelledby="cvModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="cvModalLabel">CV Preview</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                      <img src="CV_Electric_V2_page-0001.jpg" alt="CV Preview" class="img-fluid" style="max-width: 100%; height: auto;">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <a href="CV_Electric_V2.pdf" download="CV_Anfa_Adhima.pdf" class="btn btn-primary">Download CV</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
           <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
             <figure class="profile-figure text-center text-lg-end">
-              <img src="assets/img/profile/profile.jpeg" alt="Portrait of Alex" class="img-fluid profile-photo">
+              <img src="assets/img/profile/Profil.jpg" alt="" class="img-fluid profile-photo">
             </figure>
           </div>
         </div>
@@ -119,28 +135,28 @@
               <div class="skill-item">
                 <i class="bi bi-layout-text-window"></i>
                 <h3>UI/UX</h3>
-                <p>Vivamus sagittis lacus molestie placerat.</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <div class="skill-item">
-                <i class="bi bi-code-slash"></i>
-                <h3>React.js</h3>
-                <p>Maecenas pharetra magna sit amet risus.</p>
+                <p>Designing intuitive and engaging user interfaces.</p>
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
               <div class="skill-item">
-                <i class="bi bi-phone"></i>
-                <h3>Mobile-first</h3>
-                <p>Donec id elit non mi porta gravida.</p>
+                <i class="bi bi-code-slash"></i>
+                <h3>Programming</h3>
+                <p>Writing clean and efficient code in multiple programming languages.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <div class="skill-item">
+                <i class="bi bi-robot"></i>
+                <h3>Automation</h3>
+                <p>Programming and configuring programmable logic controllers for industrial automation.</p>
               </div>
             </div>
             <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
               <div class="skill-item">
-                <i class="bi bi-camera"></i>
-                <h3>Photography</h3>
-                <p>Aliquam euismod nunc at augue cursus.</p>
+                <i class="bi bi-battery-charging"></i>
+                <h3>Electrical</h3>
+                <p>Designing and maintaining electrical systems and circuits.</p>
               </div>
             </div>
           </div>
@@ -153,42 +169,41 @@
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
               <article class="timeline-item">
                 <span class="dot"></span>
-                <time>2018</time>
-                <h4>B.A. in Design</h4>
-                <p>Quisque euismod turpis ut sapien luctus bibendum.</p>
+                <time>2024</time>
+                <h4>Internship</h4>
+                <p>Join internship program at PT. Kereta Api Indonesia.</p>
               </article>
             </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+              <article class="timeline-item">
+                <span class="dot"></span>
+                <time>2024-2025</time>
+                <h4>Thesis</h4>
+                <p>Research and development railway robotic inspection "luminolynx".</p>
+              </article>
+            </div>            
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
               <article class="timeline-item">
                 <span class="dot"></span>
-                <time>2020</time>
-                <h4>Freelance Start</h4>
-                <p>Mauris non arcu non urna convallis vulputate.</p>
+                <time>2025</time>
+                <h4>Graduated</h4>
+                <p>Graduated with a degree in rolling stock engineering.</p>
               </article>
             </div>
             <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
               <article class="timeline-item">
                 <span class="dot"></span>
-                <time>2022</time>
-                <h4>Joined Creative Studio</h4>
-                <p>Nunc sed nibh et libero fermentum posuere.</p>
+                <time>2025-2026</time>
+                <h4>Joined PT Tjiwi Kimia Tbk</h4>
+                <p>Working in the maintenance department.</p>
               </article>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2024</time>
-                <h4>Lead Frontend</h4>
-                <p>Proin commodo massa sit amet urna pretium.</p>
-              </article>
-            </div>
           </div>
         </div>
         <!-- End Journey Timeline -->
 
         <!-- Quote -->
-        <blockquote class="personal-quote text-center mb-5" data-aos="fade-down" data-aos-delay="200">
-          <p>"Building clean and meaningful experiences through thoughtful code and quiet design."</p>
+        <blockquote class="personal-quote text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+          <p>"Building clean and meaningful experiences, everything is possible."</p>
         </blockquote>
         <!-- End Quote -->
 
@@ -231,7 +246,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
+        <p>I'm skilled in various areas of engineering and technology.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -289,7 +304,7 @@
 
     </section><!-- /Skills Section -->
 
-    <!-- Stats Section -->
+    <!-- Stats Section 
     <section id="stats" class="stats section dark-background">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -325,17 +340,18 @@
         </div>
       </div>
 
-    </section><!-- /Stats Section -->
+    </section>
+    -->
 
-    <!-- Testimonials Section -->
+    <!-- Testimonials Section 
     <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
+    -->
+      <!-- Section Title 
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
         <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
+      </div>End Section Title -->
+      <!--
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="swiper init-swiper">
@@ -378,7 +394,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -402,8 +418,8 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
-
+            </div>End testimonial item -->
+            <!--
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <div class="row gy-4 justify-content-center">
@@ -426,7 +442,7 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -450,15 +466,15 @@
                   </div>
                 </div>
               </div>
-            </div><!-- End testimonial item -->
+            </div>
 
           </div>
           <div class="swiper-pagination"></div>
         </div>
 
       </div>
+    </section>Testimonials Section -->
 
-    </section><!-- /Testimonials Section -->
 
   </main>
 
