@@ -1,0 +1,4 @@
+# Abaikan file Docker agar tidak masuk ke GitHub
+Dockerfile
+docker-compose.yml
+.dockerignore
