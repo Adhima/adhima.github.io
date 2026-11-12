@@ -1,0 +1,16 @@
+# Local and generated files
+.git
+.gitignore
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Editor and OS files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# Documentation and local notes
+Readme.txt
+forms/Readme.txt
